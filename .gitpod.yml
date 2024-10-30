@@ -1,5 +1,5 @@
-image:
-  file: .gitpod.Dockerfile
+# image:
+#   file: .gitpod.Dockerfile
 
 ports:
   - port: 5000
@@ -7,7 +7,10 @@ ports:
     onOpen: open-preview
 
 tasks:
-  - command: python src/main.py
+    - name: Setup, Install & Run
+      init: pip install -r requirements.txt
+      command: python src/main.py
+
 
 vscode:
   extensions:
