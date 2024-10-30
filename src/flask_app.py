@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from rich import print
 
 from db import get_challenges_for_candidate
@@ -8,10 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return (
-        "Hi 👋 head out to "
-        '<a href="/challenges/111.111.111-11">this link</a> to get started.'
-    )
+    return render_template("index.html")
 
 
 @app.route("/challenges/<cpf>")
