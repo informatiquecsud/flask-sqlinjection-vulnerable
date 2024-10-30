@@ -10,7 +10,7 @@ The purpose of this repository is to allow us to explore an API vulnerable to SQ
 
 You're free to play with it as is, but you might have more fun doing it alongside me in a blog post: https://blog.guilatrova.dev/how-sql-injection-attack-works-with-examples/.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/guilatrova/flask-sqlinjection-vulnerable/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/informatiquecsud/flask-sqlinjection-vulnerable/)
 
 You can play with the following endpoints (considering you're running on localhost):
 
